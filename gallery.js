@@ -1,9 +1,9 @@
 /*Name this external file gallery.js*/
 
 function upDate(previewPic){
-    document.getElementById("image").innerHTML = previewPic.alt;
+    document.getElementById("imagee").src = previewPic.src;
 }
    
 function unDo(){
-    document.getElementById("image").innerHTML = "Hover over an image below to display here.";
+    document.getElementById("imagee").innerHTML = "";
 }
